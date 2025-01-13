@@ -9,7 +9,7 @@
     "dist"
   ],
   "scripts": {
-    "build": "tsup"
+    "build": "tsup src/index.ts --format esm,cjs --dts"
   },
   "peerDependencies": {
     "react": "^17.0.0 || ^18.0.0",
